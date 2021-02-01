@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Collector's Bazazr | Home</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" a href="navbar.css">
+            <link rel="stylesheet" href="css/foundation.css"/>
+    </head>
+    <body>
+        <div class="topnavbar">
+        <ul>
+            <li class="home"><g onclick="location.href='./index.html'">Home</g></li>
+            <li class="Login"><g onclick="location.href='./login.html'">Login</x></li>
+            <li class="Register"><g onclick="location.href='./register.html'">Register</c></li>
+            <li class="Register"><g onclick="location.href='./index.html'">About Us</c></li>
+            <li class="Register"><g onclick="location.href='./index.html'">Contact Us</c></li>    
+        </ul>
+        </div>
+                <div class="column">
+                <div class="card">
+                    <div class="card-section">
+                        <form>
+                                <div class="grid-x grid-padding-x">
+                                    <div class="large-12 cell">
+                                        <form id="signup" onsubmit="">
+                                            <div class="name-field">
+                                                <input type="text" placeholder="First Name" id="fname" onfocus="this.style.border='2px solid tomato'" required>
+                                                <small class="error"></small>
+                                            </div>
+                                            <div class="name-field">
+                                                <input type="text" placeholder="Last Name" id="lname" required onfocus="this.style.border='2px solid Orange'">
+                                                <small class="error"></small>
+                                            </div>
+                                            <div class="name-field">
+                                                <input type="text" placeholder="Username" id="uname" required onfocus="this.style.border='2px solid yellow'">
+                                                <small class="error"></small>
+                                            </div>
+                                            <div class="email-field">
+                                                <input type="email" placeholder="Email Id" id="email" required onfocus="this.style.border='2px solid MediumSeaGreen'">
+                                                <small class="error"></small>
+                                            </div>
+                                            <div class="password-field">
+                                                <input type="password" placeholder="Password" id="password" required onfocus="this.style.border='2px solid Purple'">
+                                                <small class="error"></small>
+                                            </div>
+                                            <button type="reset" class="rounded button" onclick="validatesignup()">Sign Up</button>
+                                        </form>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function validatesignup(){
+                                    alert('Sign up successfull!')
+                                    window.location.href="./questionaire1.html";
+                                }
+                            </script>
+</body>
