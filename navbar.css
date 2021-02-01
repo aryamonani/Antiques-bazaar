@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+
+.topnavbar ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.topnavbar li {
+  font-family: CustomFont;
+  font-size: 1em;
+  line-height: 10px;
+  height: 10px;
+  border-bottom: 5px solid #888;
+}
+#logo{
+    position: relative;
+    top: 4px;
+    left:40px;
+    width:30px;
+    height:30px;
+    overflow:hidden;
+}
+.topnavbar g {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+.topnavbar x {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+.topnavbar c {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+.topnavbar d {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+.topnavbar e {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.topnavbar g:hover {
+  background-color: Orange;
+  cursor: pointer;
+}
+.topnavbar x:hover {
+  background-color: Orange;
+  cursor: pointer;
+}
+.topnavbar c:hover {
+  background-color: Orange;
+  cursor: pointer;
+}
+.topnavbar d:hover {
+  background-color: DodgerBlue;
+  cursor: pointer;
+}
+.topnavbar e:hover {
+  background-color: Purple;
+  cursor: pointer;
+}
+
+.topnavbar g.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.topnavbar x.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.topnavbar c.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.topnavbar d.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.topnavbar e.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+@font-face {
+font-family: CustomFont;
+src: url(acre.otf);
+}
+
+
+@media screen and (min-width: 300px) {
+  .topnavbar li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+  .topnavbar li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+}
