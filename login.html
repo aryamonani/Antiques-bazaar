@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Collector's Bazazr | Home</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" a href="navbar.css">
+            <link rel="stylesheet" href="css/foundation.css"/>
+    </head>
+    <body>
+        <div class="topnavbar">
+        <ul>
+            <li class="home"><g onclick="location.href='./index.html'">Home</g></li>
+            <li class="Login"><g onclick="location.href='./login.html'">Login</x></li>
+            <li class="Register"><g onclick="location.href='./register.html'">Register</c></li>
+            <li class="Register"><g onclick="location.href='./index.html'">About Us</c></li>
+            <li class="Register"><g onclick="location.href='./index.html'">Contact Us</c></li>    
+        </ul>
+        </div>
+                <div class="column">
+                    <div class="card_2">
+                        <form>
+                            <div class="card_2-section">
+                                <div class="grid-container">
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="large-12 cell">
+                                            <form>
+                                                <div class="name-field">
+                                                    <input type="text" placeholder="Username" id="uname" required onfocus="this.style.border='2px solid tomato'">
+                                                    <small class="error"></small>
+                                                </div>
+                                                <div class="password-field">
+                                                    <input type="password" placeholder="Password" id="password" required onfocus="this.style.border='2px solid Purple'">
+                                                    <small class="error"></small>
+                                                </div>
+                                                <button type="reset" class="rounded button" onclick="validatelogin()">Log In</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    function validatelogin(){
+                                        alert('Log in successfull!');
+                                        window.location.href="./index.html";
+                                    }
+                                </script>
+
+    </body>
